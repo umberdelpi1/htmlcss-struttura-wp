@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+}
+
+header {
+  background-color: grey;
+  height: 150px;
+  position: relative;
+}
+
+main {
+  background-color: lightblue;
+  position: relative;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+
+  height: 700px;
+  width: 25%;
+  float: left;
+  position: relative;
+}
+
+.rightprova {
+  background-color: rgb(108, 201, 15);
+  height: 100px;
+  width: 25%;
+  float: right;
+  position: relative;
+  margin-top: 20px;
+}
+
+.leftprova2 {
+  background-color: rgb(130, 13, 235);
+  height: 250px;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+.leftprova3 {
+  background-color: rgb(11, 37, 117);
+  height: 250px;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.leftprova4 {
+  background-color: rgb(123, 138, 0);
+  height: 150px;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.right {
+  background-color: red;
+  height: 400px;
+  width: 25%;
+  float: left;
+  margin-top: 20px;
+}
+
+
+section {
+  background-color: blue;
+  height:1000px;
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: yellow;
+  height: 150px;
+  width: 100%
+}
